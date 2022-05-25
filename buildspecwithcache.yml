@@ -8,7 +8,7 @@ phases:
       - echo Getting Started  
   pre_build:
     commands:
-      -echo Indtslling some packages and source NPM dependecies
+      - Installing some packages and source NPM dependecies
       - npm install
   build:
     commands:
