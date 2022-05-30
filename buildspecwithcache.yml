@@ -10,6 +10,7 @@ phases:
     commands:
       - echo Installing some packages and source NPM dependencies
       - npm install
+      - npm i puppeteer
   build:
     commands:
       - echo Build started on `date`
